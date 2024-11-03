@@ -19,5 +19,5 @@ st.markdown("""
     The price of gold is influenced by various factors, including market demand, geopolitical stability, 
     inflation rates, and currency fluctuations. These variables can cause the gold price to vary significantly 
     in the short term. As a result, while the predicted price gives an estimate based on historical data, 
-    actual market prices may differ by approximately ₹300 on average. For study Purpose only.
+    actual market prices may differ. For study Purpose only.
 """)
