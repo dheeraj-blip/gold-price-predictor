@@ -7,7 +7,8 @@ st.title("Gold Price Predictor - By Dheeraj")
 # Input for the number of years
 years = st.number_input("Enter the year:", step=1)
 
-# Add a button to calculate the gold price
+# Center the Calculate button using HTML
+st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
 if st.button("Calculate"):
     # Calculate the gold price based on the provided formula
     gold_price = math.exp(-189.0625 + 0.0978 * years)
@@ -23,4 +24,7 @@ if st.button("Calculate"):
         in the short term. As a result, while the predicted price gives an estimate based on historical data, 
         actual market prices may differ. For study purposes only.
     """)
+
+# Close the center div
+st.markdown('</div>', unsafe_allow_html=True)
 
