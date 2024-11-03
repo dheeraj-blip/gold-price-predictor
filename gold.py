@@ -8,7 +8,7 @@ st.title("Gold Price Predictor - By Dheeraj")
 years = st.number_input("Enter the year:", step=1)
 
 # Create a centered layout using columns
-col1, col2, col3 = st.columns([1, 2, 1])  # Adjust column proportions as needed
+col1, col2, col3 = st.columns([1, 3, 1])  # Adjust column proportions as needed
 
 # Place the Calculate button in the center column
 with col2:
