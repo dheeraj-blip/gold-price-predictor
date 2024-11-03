@@ -2,10 +2,10 @@ import streamlit as st
 import math
 
 # Set the title of the app
-st.title("Gold Price Predictor")
+st.title("Gold Price Predictor- By Dheeraj")
 
 # Input for the number of years
-years = st.number_input("Enter the year:", min_value=1947, step=1)
+years = st.number_input("Enter the year:", step=1)
 
 # Calculate the gold price based on the provided formula
 gold_price = math.exp(-189.0625 + 0.0978 * years)
@@ -19,6 +19,5 @@ st.markdown("""
     The price of gold is influenced by various factors, including market demand, geopolitical stability, 
     inflation rates, and currency fluctuations. These variables can cause the gold price to vary significantly 
     in the short term. As a result, while the predicted price gives an estimate based on historical data, 
-    actual market prices may differ by approximately ₹300 on average. It’s always advisable to consider these 
-    factors when making financial decisions related to gold investments.
+    actual market prices may differ by approximately ₹300 on average. For study Purpose only.
 """)
